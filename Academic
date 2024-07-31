@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Libraries</title>
+    <style>
+        .content {
+            font-family: Arial, sans-serif; 
+            margin: 0;
+            line-height: 1.75;
+        }
+        
+        }
+        .image-container img {
+            align-items: center; /* 垂直對齊 */
+            margin-left: 15px; /* 調整圖片之間的間距 */
+        }
+        .footer {
+            color:white;
+        }
+        .footer a, .footer span {
+            color:white;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+  <body bgcolor="Bisque">
+  <header>
+    
+    <h1 style="color:rgb(0, 31, 172);"align="center">EBSCO</h1> 
+    <hr>
+    <br>
+    </header>
+    <div class="content">
+
+    <blockquote><blockquote><blockquote><h2 style="color:DarkRed;">Academic Libraries</h2></blockquote></blockquote></blockquote>
+    <blockquote><blockquote><blockquote><font size=4 style="color:rgb(48, 43, 43);">
+    EBSCO provides academic institutions with resources from research to acquisition management to subscription services, discovery and analytics. Assisting faculty, staff, and students in academic research.
+    </font></blockquote></blockquote></blockquote>
+    
+    <br>
+    <br>
+    <blockquote><blockquote><blockquote><blockquote><blockquote>
+    <div class="image-container">
+        <img src="technology.png"  style="width:100px;height:100px;margin-right: 150px;">
+        
+        <img src="database.png"  style="width:100px;height:100px;margin-right: 150px;">
+        
+        <img src="journals.png"  style="width:100px;height:100px;margin-right: 150px;">
+
+        <img src="E-book.png"  style="width:100px;height:100px;">
+    </blockquote></blockquote></blockquote></blockquote></blockquote>
+    </div>
+    <br>
+    <br>
+    <a href="https://www.flaticon.com" title="icons">Icons from Flaticon</a>
+    </div>
+    <br>
+    <br>
+    <footer>
+    <div style="background-color:RebeccaPurple; padding: 20px;">
+    <br>
+    <div class="footer">
+        <a href="https://more.ebsco.com/privacy-policy">Privacy Policy</a>
+        <span>|</span>
+        <a href="https://more.ebsco.com/cookie-policy.html">Cookie Policy</a>
+        <span>|</span>
+        <a href="https://more.ebsco.com/website-terms-of-use.html">Terms of Use</a>
+        &copy; 2024 Maggie Wang.
+    </div>
+    <br>
+    </div>
+    </footer>
+    </body>
