@@ -14,13 +14,15 @@
             position: absolute;
             right: 90px; /* 精確地距離右邊的距離 */
             top: 6%; /* 精確地距離頂部的距離 */
+            border: none;
+            color:brown;
         }
         .button-pair {
             display: flex;
             justify-content: space-between;
             width: 100%;
             margin-bottom: 10px;
-            color:blue
+            color:purple;
         }
         .button {
             background-color: #e7e7e7;
@@ -36,6 +38,21 @@
         .button:hover {
             background-color: #ccc;
         }
+        .no-underline {
+            text-decoration: none;
+        }
+        .text-content {
+            font-family: Arial, sans-serif;
+        }
+        .footer {
+            color:white;
+        }
+        .footer a, .footer span {
+            color:white;
+        }
+        a {
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -43,9 +60,9 @@
   <header>
     <h1 style="color:rgb(117, 13, 117);">EBSCO Products for the Institution</h1>
     <hr>
-    <div class="container">
-            
-            <button class="button-right"> <p> <a href="file:///C:/Users/wang/Desktop/About%20EBSCO.html">About EBSCO</a> </p> </button>
+    
+    <div class="container">    
+            <button class="button-right"> <p> <a href="About EBSCO.html">About EBSCO</a> </p> </button>
     <br>
     <br>
     <br>
@@ -53,18 +70,18 @@
     <br>
   </header>
   <main>
-      <div class="buttons">
+    <div class="buttons">
           <div class="button-pair">
-              <div class="button"><font size=5>Academic Libraries</font></div>
-              <div class="button"><font size=5>Public Libraries</font></div>
+              <div class="button"><font size=5><a href="Academic Libraries.html">Academic Libraries</a></font></div>
+              <div class="button"><font size=5><a href="Public Libraries.html">Public Libraries</a></font></div>
           </div>
           <div class="button-pair">
-              <div class="button"><font size=5>Schools</font></div>
-              <div class="button"><font size=5>Publishers</font></div>
+              <div class="button"><font size=5><a href="Schools.html">Schools</a></font></div>
+              <div class="button"><font size=5><a href="Publishers.html">Publishers</a></font></div>
           </div>
           <div class="button-pair">
-              <div class="button"><font size=5>Corporations</font></div>
-              <div class="button"><font size=5>Health Care</font></div>
+              <div class="button"><font size=5><a href="Corporations.html">Corporations</a></font></div>
+              <div class="button"><font size=5><a href="Health Care.html">Health Care</a></font></div>
           </div>
       </div>
     </main>
@@ -76,14 +93,28 @@
     <br>
     <br>
     <footer>
-    <blockquote><blockquote><font size=5 style="color:brown;">The website was set up to allow users to quickly understand what services EBSCO provides to each institution.</font></blockquote></blockquote>
+    <div class="text-content">
+
+    <blockquote><blockquote><font size=5 style="color:brown;" >The website was set up to allow users to quickly understand what services EBSCO provides to each institution.</font></blockquote></blockquote>
+    </div>
+    
     <br>
     <br>
     <br>
-    <blockquote><blockquote><font size=4><p>Resources from：<a href="https://www.ebsco.com">https://www.ebsco.com</a>.</p></font></blockquote></blockquote>
+   
+    <blockquote><blockquote><a href="https://www.ebsco.com" title="resource">Resources from EBSCO</a></blockquote></blockquote>
+    
+    <div style="background-color:RebeccaPurple; padding: 20px;">
     <br>
-    <p align="center">Maggie Wang  &copy; 2024</p>
+    <div class="footer">
+        <a href="https://more.ebsco.com/privacy-policy">Privacy Policy</a>
+        <span>|</span>
+        <a href="https://more.ebsco.com/cookie-policy.html">Cookie Policy</a>
+        <span>|</span>
+        <a href="https://more.ebsco.com/website-terms-of-use.html">Terms of Use</a>
+        &copy; 2024 Maggie Wang.
+    </div>
     <br>
-    <br>
+    </div>
     </footer>
     </body>
