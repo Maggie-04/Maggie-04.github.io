@@ -9,6 +9,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
+            color: rgb(110, 66, 66)217, 255, 0); /* 按鈕文字原本的顏色 */
         }
       .button-right {
             position: absolute;
@@ -25,18 +26,21 @@
             color:purple;
         }
         .button {
-            background-color: #e7e7e7;
-            padding: 20px;
+            background-color: #b2bece;
+            padding: 15px 32px;
             margin: 10px;
             border-radius: 25px;
             cursor: pointer;
             transition: background-color 0.3s;
             flex: 1;
             text-align: center;
-            margin: 0 10px; /* Margin between buttons */
+            margin: 10px 10px; /* Margin between buttons */
+            width: 85px; /* 設定按鈕的寬度 */
+            border-radius: 12px; /* 圓角邊框 */
         }
         .button:hover {
             background-color: #ccc;
+            color: green; /* 按鈕文字 hover 時的顏色 */
         }
         .no-underline {
             text-decoration: none;
@@ -52,6 +56,14 @@
         }
         a {
             text-decoration: none;
+        }
+        div.mycontainer {
+            width:100%;
+            overflow:auto;
+        }
+        div.mycontainer div {
+            width:33%;  
+            float:left;
         }
     </style>
 </head>
@@ -72,7 +84,7 @@
   <main>
     <div class="buttons">
           <div class="button-pair">
-              <div class="button"><font size=5><a href="Academic.html">Academic Libraries</a></font></div>
+              <div class="button"><font size=5><a href="https://maggie-04.github.io/Academic.html">Academic Libraries</a></font></div>
               <div class="button"><font size=5><a href="Public Libraries.html">Public Libraries</a></font></div>
           </div>
           <div class="button-pair">
@@ -93,17 +105,34 @@
     <br>
     <br>
     <footer>
+    <blockquote><blockquote><blockquote><blockquote>
     <div class="text-content">
+    <div class="mycontainer">
 
-    <blockquote><blockquote><font size=5 style="color:brown;" >The website was set up to allow users to quickly understand what services EBSCO provides to each institution.</font></blockquote></blockquote>
+    <div style="background-color:#e6e6fa;">
+        <img src="https://cdn-icons-png.flaticon.com/512/3685/3685327.png"  style="width:100px;height:100px;margin-right: 150px;">
+        <p>Bringing Diverse Resource for Research</p>
     </div>
-    
+        
+    <div style="background-color:#e6e6fa;">
+        <img src="https://cdn-icons-png.flaticon.com/512/17176/17176572.png"  style="width:100px;height:100px;margin-right: 150px;">
+        <p>Supporting Initiatives Within the Library Community</p>
+    </div>
+
+    <div style="background-color:#e6e6fa;">
+        <img src="https://cdn-icons-png.flaticon.com/512/5430/5430196.png"  style="width:100px;height:100px;margin-right: 150px;">
+        <p>Creating Positive Experiences</p>
+    </div>
+</div>
+</div>
+</blockquote></blockquote></blockquote></blockquote>
     <br>
     <br>
     <br>
    
-    <blockquote><blockquote><a href="https://www.ebsco.com" title="resource">Resources from EBSCO</a></blockquote></blockquote>
-    
+    <blockquote><blockquote><a href="https://www.ebsco.com" title="resource">Resources from EBSCO,</a>
+    <a href="https://www.flaticon.com" title="icons">Icons from Flaticon</a></blockquote></blockquote>
+
     <div style="background-color:RebeccaPurple; padding: 20px;">
     <br>
     <div class="footer">
